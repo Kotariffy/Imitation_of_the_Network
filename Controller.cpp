@@ -1,6 +1,3 @@
-/*---------------------------------------------*/
-/*    Реализация методов класса Controller.    */
-/*---------------------------------------------*/
 
 #include <iostream>
 #include "Controller.h"
@@ -12,7 +9,7 @@ int Controller::MaxSizeList;
 void Controller::AddAbonent(Abonent& abonent)
 {
 
-	listAbonent.push_back(abonent);							// push_back() из std::vector добавляет объект abonent в конец дин. массива listAbonent.
+	listAbonent.push_back(abonent);						// push_back() из std::vector добавляет объект abonent в конец дин. массива listAbonent.
 	cout << " Передан абонент " << abonent.GetName() << endl;
 
 }

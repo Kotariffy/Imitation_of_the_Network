@@ -1,8 +1,6 @@
-/*---------------------------------*/
-/*   Описание класса Сontroller.   */
-/*---------------------------------*/
+#ifndef __CONTROLLER_H__
+#define __CONTROLLER_H__
 
-#pragma once
 #include "Abonent.h"
 #include <vector>
 
@@ -22,3 +20,4 @@ private:
 	std::vector <Abonent> listAbonent;
 };
 
+#endif

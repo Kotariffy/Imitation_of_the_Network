@@ -1,8 +1,6 @@
-/*---------------------------------*/
-/*	   Описание класса Abonent.	   */
-/*---------------------------------*/
+#ifndef __ABONENT_H__
+#define __ABONENT_H__
 
-#pragma once
 #include <string>
 
 
@@ -28,3 +26,4 @@ private:
 
 };
 
+#endif
